@@ -1,7 +1,9 @@
 import tkinter as tk
 
-janela = tk.Tk()
-janela.title("Janela Principal")
-janela.geometry("200x200")
+class Janela_Principal():
+    def exibir_janela(self):
+        janela = tk.Tk()
+        janela.title("Janela Principal")
+        janela.geometry("200x200")
 
-janela.mainloop()
+        janela.mainloop()
