@@ -16,3 +16,4 @@ class CheckButton():
                             variable=opcao, command=verificar)
         check.pack(pady=10)
         janela.mainloop()
+        
