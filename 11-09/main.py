@@ -3,7 +3,8 @@
 # from label_tkinter import Label_Tkinter
 # from entry_tkinter import Entry_Tkinter
 # from listbox_tkinter import ListBox_Tkinter
-from button_tkinter import Button_Tkinter
+# from button_tkinter import Button_Tkinter
+from radiobutton_tkinter import RadioButton_Tkinter
 
 # janela = Janela_Principal()
 # janela.exibir_janela()
@@ -20,5 +21,8 @@ from button_tkinter import Button_Tkinter
 # listbox = ListBox_Tkinter()
 # listbox.iniciar()
 
-button = Button_Tkinter()
-button.iniciar()
+# button = Button_Tkinter()
+# button.iniciar()
+
+radiobuton = RadioButton_Tkinter()
+radiobuton.iniciar()
