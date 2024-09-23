@@ -9,7 +9,7 @@ class CheckButton():
                 print("Não selecionado")
 
         janela = tk.Tk()
-        janela.title("Exemplo caixa de seleção")
+        janela.title("Exemplo CheckButton")
         opcao = tk.IntVar()
 
         check = tk.Checkbutton(janela, text="Escolha a opção",
